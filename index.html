@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="logo">
+                <h1><span id="highlight-text">R</span>ifat.</h1>
+            </div>
+            <div class="menu-section">
+                <ul>
+                    <li id="active"><a href="#">home</a></li>
+                    <li><a href="#" id="about">about</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-text">
+            <p>ui/ux Design</p>
+            <h1>Hi, I'm <span id="header-text-highlite">rifat</span> <br>
+                form bangladesh.
+            </h1>
+        </div>
+    </div>
+    <script>
+        let about = document.getElementById('about');
+        about.addEventListener('click',()=>{
+            about.style.display='none';
+        })
+    </script>
+</body>
+</html>
